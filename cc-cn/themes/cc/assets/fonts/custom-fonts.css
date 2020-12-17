@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('LatoRegular/LatoRegular.eot');
+    src: url('LatoRegular/LatoRegular.eot') format('embedded-opentype'),
+         url('LatoRegular/LatoRegular.woff2') format('woff2'),
+         url('LatoRegular/LatoRegular.woff') format('woff'),
+         url('LatoRegular/LatoRegular.ttf') format('truetype'),
+         url('LatoRegular/LatoRegular.svg#LatoRegular') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'arial-regular';
+    src: url('arial-regular/arial.eot');
+    src: url('arial-regular/arial.eot?#iefix') format('embedded-opentype'),
+        url('arial-regular/arial.woff2') format('woff2'),
+        url('arial-regular/arial.woff') format('woff'),
+        url('arial-regular/arial.ttf') format('truetype'),
+        url('arial-regular/arial.svg#arial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial-BoldMT';
+    src: url('Arial-BoldMT/Arial-BoldMT.eot');
+    src: url('Arial-BoldMT/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+        url('Arial-BoldMT/Arial-BoldMT.woff2') format('woff2'),
+        url('Arial-BoldMT/Arial-BoldMT.woff') format('woff'),
+        url('Arial-BoldMT/Arial-BoldMT.ttf') format('truetype'),
+        url('Arial-BoldMT/Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial-Black';
+    src: url('Arial-Black/Arial-Black.eot');
+    src: url('Arial-Black/Arial-Black.eot?#iefix') format('embedded-opentype'),
+        url('Arial-Black/Arial-Black.woff2') format('woff2'),
+        url('Arial-Black/Arial-Black.woff') format('woff'),
+        url('Arial-Black/Arial-Black.ttf') format('truetype'),
+        url('Arial-Black/Arial-Black.svg#Arial-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
