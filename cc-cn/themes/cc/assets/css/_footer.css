@@ -116,8 +116,11 @@
     color: #141414;
     opacity: 1;
 }
+
+
+
 .ftr-inputfield input[type=text]:focus{
-	border-color: #141414;
+	border-color: #3B9ABB;
 }
 
 .ftr-inputfield p{
@@ -152,6 +155,43 @@
 	border-color: #35b1de;
 }
 
+.ftr-inputfield.cc-has-error input{
+	border: 1px solid #D9534F;
+	color: #D9534F!important;
+}
+.ftr-inputfield.cc-has-error input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #D9534F!important;
+    opacity: 1;
+}
+.ftr-inputfield.cc-has-error input::-moz-placeholder { /* Firefox 19+ */
+    color: #D9534F!important;
+    opacity: 1;
+}
+.ftr-inputfield.cc-has-error input:-ms-input-placeholder { /* IE 10+ */
+    color: #D9534F!important;
+    opacity: 1;
+}
+.ftr-inputfield.cc-has-error input:-moz-placeholder { /* Firefox 18- */
+    color: #D9534F!important;
+    opacity: 1;
+}
+
+.ftr-inputfield-error{
+	padding: 2px;
+	background: #fff;
+	position: relative;
+}
+.ftr-inputfield-error label.ftr-close-icon{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	font-size: 12px;
+	color: #D9534F;
+}
+
 .ftr-socials-media{
 	padding-top: 20px;
 }
@@ -173,5 +213,62 @@
 	line-height: 1;
 }
 .ftr-socials-media ul li a:hover{
+	color: #3B9ABB;
+}
+
+
+.ftr-btm{
+	padding: 55px 0;
+}
+.ftr-btm-innr{
+	display: flex;
+	align-items: center;
+}
+.ftr-btm-menu{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ftr-copywrite p{
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #858B8E;
+	line-height: 1;
+	font-family: 'arial-regular';
+}
+
+.ftr-btm-menu ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-left: 16px;
+	padding-right: 16px;
+	position: relative;
+}
+.ftr-btm-menu ul li:after{
+	content: "";
+	position: absolute;
+	top: 60%;
+	left: 0;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	height: 1px;
+	width: 4px;
+	background: #858B8E;
+}
+.ftr-btm-menu ul li:first-child:after{
+	content: none;
+}
+.ftr-btm-menu ul li a,
+.ftr-btm-designby a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	color: #858B8E;
+	line-height: 1;
+	font-family: 'arial-regular';
+}
+.ftr-btm-menu ul li a:hover,
+.ftr-btm-designby a:hover{
 	color: #3B9ABB;
 }
