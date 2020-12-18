@@ -49,3 +49,16 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'ArialNova-regular';
+    src: url('ArialNova-regular/ArialNova.eot');
+    src: url('ArialNova-regular/ArialNova.eot?#iefix') format('embedded-opentype'),
+        url('ArialNova-regular/ArialNova.woff2') format('woff2'),
+        url('ArialNova-regular/ArialNova.woff') format('woff'),
+        url('ArialNova-regular/ArialNova.ttf') format('truetype'),
+        url('ArialNova-regular/ArialNova.svg#ArialNova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

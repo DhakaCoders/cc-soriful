@@ -170,6 +170,23 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
+
+  if( $('.hmSponserSlider').length ){
+      $('.hmSponserSlider').slick({
+        pauseOnHover: false,
+        autoplay: false,
+        autoplaySpeed: 8000,
+        dots: false,
+        arrows:true,
+        infinite: false,
+        speed: 700,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        prevArrow: $('.cc-sponser-slider-ctlr .fl-prv-nxt .fl-prev'),
+        nextArrow: $('.cc-sponser-slider-ctlr .fl-prv-nxt .fl-next')
+      });
+    }
+
     new WOW().init();
 
 })(jQuery);

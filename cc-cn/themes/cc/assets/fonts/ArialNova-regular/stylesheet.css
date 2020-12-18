@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Arial Nova';
+    src: url('ArialNova.eot');
+    src: url('ArialNova.eot?#iefix') format('embedded-opentype'),
+        url('ArialNova.woff2') format('woff2'),
+        url('ArialNova.woff') format('woff'),
+        url('ArialNova.ttf') format('truetype'),
+        url('ArialNova.svg#ArialNova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

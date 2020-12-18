@@ -140,6 +140,9 @@ nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu li a{
 	color: #A0A0A0;
 	padding-bottom: 0;
 }
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
+	color: #3B9ABB;
+}
 
 
 
