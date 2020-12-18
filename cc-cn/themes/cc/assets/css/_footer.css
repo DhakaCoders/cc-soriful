@@ -192,6 +192,10 @@
 	color: #D9534F;
 }
 
+/*.was-validated .ftr-inputfield input[type=text]{
+	border-color: #D9534F;
+}*/
+
 .ftr-socials-media{
 	padding-top: 20px;
 }

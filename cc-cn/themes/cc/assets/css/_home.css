@@ -64,3 +64,134 @@
 	font-size: 24px;
 	color: #A0A0A0;
 }
+
+
+
+
+.cc-video-lft{
+	float: left;
+	width: 50%;
+}
+.cc-video-rgt{
+	float: right;
+	width: 50%;
+}
+.cc-video-fancy{
+	overflow: hidden;
+	position: relative;
+}
+.cc-video-fancy-inr{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+
+.cc-video-fancy i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+.cc-video-fancy:hover .cc-video-fancy-inr{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+}
+
+
+.cc-video-rgt{
+	padding-top: 120px;
+	position: relative;
+}
+.cc-video-rgt:after{
+	content: "";
+	position: absolute;
+	top: 35px;
+	left: 0;
+	width: 86px;
+	height: 86px;
+	background: #3B9ABB;
+}
+.cc-video-rgt-ctlr{
+	background: #0F0E0F;
+	padding: 70px 140px 220px 140px;
+}
+.cc-video-rgt-ctlr blockquote{
+	position: absolute;
+	top: 77%;
+	right: 21%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+
+
+
+.cc-service-sec{
+	background: #F9F9F9;
+	padding-bottom: 170px;
+}
+
+
+.cc-service-title{
+	display: block;
+	font-size: 48px;
+	line-height: 1;
+	margin-bottom: 50px;
+	font-family: 'Arial-Black';
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	position: relative;
+}
+.cc-service-title:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 78px;
+	height: 6px;
+	background: #3B9ABB;
+	margin-left: -22px;
+}
+
+.cc-service-category{
+	padding-left: 50px;
+	padding-right: 40px;
+}
+
+.cc-service-category ul{
+	margin-left: -15px;
+	margin-right: -15px;
+	text-align: justify;
+}
+.cc-service-category ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 24px;
+	color: #B1C1C7;
+	text-transform: uppercase;
+	font-family: 'Arial-Black';
+	text-align: justify;
+}
+.cc-service-category ul li strong{
+	font-size: 33px;
+	color: #3B9ABB;
+}
+.cc-service-category ul li span{
+	font-size: 28px;
+}
+.cc-service-category ul li small{
+	font-size: 18px;
+}
